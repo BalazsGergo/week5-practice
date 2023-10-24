@@ -1,0 +1,29 @@
+[
+    {
+        "username" : "GJ",
+         "firstname": "jakab",
+         "lastname" : "Gipsz",
+         "age": 23
+    },
+    {
+       
+        "username" : "jh",
+         "firstname": "jsda",
+         "lastname" : "fer",
+         "age": 44
+    },
+    {
+        
+        "username" : "tr",
+         "firstname": "torok",
+         "lastname" : "robi",
+         "age": 21
+    },
+    {
+        
+        "username" : "er",
+         "firstname": "erno",
+         "lastname" : "repa",
+         "age": 55
+    }
+]
