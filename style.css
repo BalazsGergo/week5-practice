@@ -11,7 +11,7 @@ div#root {
     justify-content: center;
 }
 
-div.country {
+div.country{
     border: 2px solid black;
     text-align: center;
     width: fit-content;
@@ -22,7 +22,34 @@ div.country {
     gap: 20px;
 
     padding: 20px;
+
+    transition: all 1s ease;
 }
+
+div.country.click {
+    background-color: white;
+}
+
+div:nth-child(5n - 4).country.click {
+    border: 2px solid white;
+    color: red;
+}
+ div:nth-child(5n -3).country.click {
+    border: 2px solid green;
+    color: blue;
+}
+div:nth-child(5n -2).country.click {
+    border: 2px solid lightblue;
+    color: purple;
+}
+div:nth-child(5n -1).country.click {
+    border: 2px solid red;
+    color: yellow;
+}
+div:nth-child(5n).country.click {
+    border: 2px solid black;
+    color: brown;
+} 
 
 h2, h3 {
     width: fit-content;

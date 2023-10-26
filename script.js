@@ -24,9 +24,19 @@ async function init() { // felkészítjük a js-t, hogy a függvényben lesznek 
      console.log(data)
     
      data.forEach(country => rootElement.insertAdjacentHTML("beforeend",countryComponent(country)))
-    // megvárjuk a fetch válaszát (promise helyett)
-    // megvárjuk, hogy a response megjöjjön (promise helyett) -> itt lesz elérhető az adatunk
     
+   /*  const countryElement = document.querySelector("div.country")
+    console.log(countryElement)
+    countryElement.addEventListener("click", () =>{
+        countryElement.classList.toggle("click")
+    }) */
+
+    const countryElements = document.querySelectorAll("div.country")
+    countryElements.forEach((countryElement) => {
+        countryElement.addEventListener("click", () => {
+            countryElement.classList.toggle("click")
+        })
+    })
 }
 
 init()
