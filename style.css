@@ -3,7 +3,7 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-div#root {
+main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
